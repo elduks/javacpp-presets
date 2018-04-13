@@ -519,4 +519,6 @@ case $PLATFORM in
         ;;
 esac
 
+sedinplace 's/ .*libjpeg.la//g' ../lib/liblept.la || true
+
 cd ../..
